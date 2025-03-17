@@ -1,0 +1,56 @@
+.contactContainer {
+  text-align: center;
+  padding: 50px; 
+  background-image: url('D:/food recipe website/food_recipe/public/images/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 91.4vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 90%; 
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff8a00;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contactForm textarea {
+  resize: none;
+  height: 120px; 
+}
+
+.contactForm button {
+  background: #ff8a00;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.contactForm button:hover {
+  background: #da1b60;
+}

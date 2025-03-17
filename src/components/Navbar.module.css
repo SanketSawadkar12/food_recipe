@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-image: url('D:/food recipe website/food_recipe/public/images/bg6.jpg');
+
+    color: white;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .links a:hover {
+    color: #ffeb3b;
+  }
+  

@@ -1,0 +1,64 @@
+/* Reset body and html margins */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homeContainer {
+  background-image: url('D:/food recipe website/food_recipe/public/images/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background-size: cover;
+  min-height: 91.5vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  margin-top: -30px; 
+}
+
+.description {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background: #ffeb3b;
+  color: #da1b60;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: #da1b60;
+  color: white;
+}
